@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+
+    .row::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    [class*="col-"]{
+        float: left;
+        padding: 15px;
+    }
+
+    html{
+        font-family: "Merriweather";
+    }
+    
+    .header{
+        background-color: #E9DCCD;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 2px;
+        margin: 0px;
+    }
+
+    .header1{
+        background-color: #613A43;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0px;
+    }
+
+    .main{
+        width: 75%;
+        float: right;
+        padding: 15px;
+    }
+
+    .menu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li{
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: #33b5e5;
+        color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 0, 24); 
+    }
+
+    .menu li:hover{
+        background-color: #0099cc;
+    }
+
+    .aside{
+        background-color: #849974;
+        padding: 25px;
+        width: 260px;
+        height: 300px;
+        margin-bottom: 0px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 14px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0, 12), 0 1px 2px rgba(0, 0, 0, 0, 24);
+        border-radius: 5px;
+        
+    }
+    .div {
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+
+    @keyframes mymove {
+        from {right: 0px;}
+        to {right: 200px;}
+    }
+
+    .footer{
+        background-color: #36384C;
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px;
+        padding: 15px;
+        border-radius: 2px;
+    }
+    
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 22.66%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+</style>
+</head>
+    <body>
+        <div class="header">
+        <div class="header1">
+            <font color="#E9DCCD">
+            <b><p align="right"><div class="div" style="float: right;" >HARGA BERSAING DAN KUALITAS TERJAMIN!! LAYU??KAMI GANTI!!</p></div> 
+        </font></b>
+<img src="2.png" alt="eland" width="100px" height="100px"> 
+   
+        </div>
+        
+    <div class="row">
+        <div class="col-3 menu">
+            <div class="aside">
+            <img src="1.jpg" alt="tomat" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b> Tomat Ceri</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Tomat ceri memiliki rasa yang segar dan manis. Kami menjamin kualitas 
+                    yang premium.</p></font>
+                <b><p align="center">Rp 12.000/200gr</p></font></b>
+            </div>
+        </div>
+
+        
+        <div class="col-3 menu">
+            <div class="aside">
+                <img src="3.jpg" alt="Selada" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b> Selada</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Selada kami memiliki kualitas terbaik. kami tidak menggunakan 
+                    peptisida dan bahan obat-obatan lainnya</p></font>
+                <b><p align="center">Rp 23.000/ikat</p></font></b>
+            </div>
+        </div>
+        
+        <div class="col-3 menu">
+            <div class="aside">
+                <img src="4.jpg" alt="Timun" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b> Timun</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Timun kami memiliki kesegaran dan kekriukkan yang tidak bisa ditemukan di toko manapun.</p></font>
+                <b><p align="center">Rp 15.000/500gr</p></font></b>
+            </div>
+        </div>
+
+        <div class="col-3 menu">
+            <div class="aside">
+                <img src="5.jpeg" alt="Bayam" width="130px" height="100px"> 
+                <font color="#E9DCCD">
+                    <font size="3"><p align="left"><b>Bayam</p></b></font>
+                    <hr>
+                    <font size="2"><p align="justify">Bayam kami memiliki warna yang hijau, segar, dan tidak layu. Kami akan selalu menjamin kualitasnya.</p></font>
+                    <b><p align="center">Rp 4.500/ikat</p></font></b>
+            </div>
+        </div>
+        <div class="col-3 menu">
+            <div class="aside">
+                 <img src="6.jpg" alt="Wortel" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b> Wortel</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Wortel kami memliki warna oranye dan rasa yang manis. Kualitas akan menjadi jaminan kami untuk anda. </p></font>
+                <b><p align="center">Rp 11.000/500gr</p></font></b>
+            </div>
+        </div>
+        <div class="col-3 menu">
+            <div class="aside">
+            <img src="7.webp" alt="Cabai" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b>Cabai</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Cabai kami memiliki rasa pedas dan warna merah dan oranye. Kualitas sudah terjamin.</p></font>
+                <b><p align="center">Rp 12.000/gr</p></font></b>
+            </div>
+        </div>
+        <div class="col-3 menu">
+            <div class="aside">
+            <img src="8.jpg" alt="Kangkung" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b>Kangkung</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Kangkung kami meiliki kualitas yang segar dan bersih dari hama. Kualitas dari kami tidak akan mengecewakan.</p></font>
+                <b><p align="center">Rp 12.000/gr</p></font></b>
+            </div>
+        </div>
+        <div class="col-3 menu">
+            <div class="aside">
+            <img src="9.jpg" alt="Pakcoy" width="130px" height="100px"> 
+            <font color="#E9DCCD">
+                <font size="3"><p align="left"><b>Pakcoy</p></b></font>
+                <hr>
+                <font size="2"><p align="justify">Pakcoy kami meiliki kualitas yang tinggi, kebersihan dan kesegaran terjamin.</p></font>
+                <b><p align="center">Rp 6.000/100gr</p></font></b>
+            </div>
+        </div>
+    </div>
+<br>
+    <div class="footer">
+        <p>Follow for more info</p>
+        <p>IG   : <a href="https://www.instagram.com/prayogasan/" class="">@eLand_</a></p>
+        <p>WA   : 08932314294</p>
+    </div>
+</body>
+</html>
